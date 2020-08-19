@@ -9,4 +9,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Configuration\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+  </ItemGroup>
 </Project>
