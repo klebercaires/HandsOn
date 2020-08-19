@@ -13,4 +13,7 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\HandsOn.Business\HandsOn.Business.csproj" />
+  </ItemGroup>
 </Project>

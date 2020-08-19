@@ -12,4 +12,9 @@
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HandsOn.Business\HandsOn.Business.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
